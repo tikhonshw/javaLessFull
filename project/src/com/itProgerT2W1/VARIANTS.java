@@ -1,3 +1,3 @@
 package com.itProgerT2W1;
 
-public enum VARIANTS {Paper, Rock, Scissors}
+public enum VARIANTS {Rock, Scissors, Paper}

@@ -28,25 +28,25 @@ public class Player {
         String outStr = "";
 
         if (firstPl == secondPl) {
-            outStr = "Ничья" + firstPlayer.name + " и " + secondPlayer.name + " Красавцы";
+            outStr = "!!!! Ничья !!!! " + firstPlayer.name + " и " + secondPlayer.name + " Красавцы";
         }
         if (firstPl == "Rock" && secondPl == "Scissors") {
-            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + " У игрока " + secondPlayer.name + ": " + secondPl + " Победитель " + firstPlayer.name;
+            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + "\nУ игрока " + secondPlayer.name + ": " + secondPl + "\n\nПобедитель " + firstPlayer.name;
         }
         if (firstPl == "Rock" && secondPl == "Paper") {
-            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + " У игрока " + secondPlayer.name + ": " + secondPl + " Победитель " + secondPlayer.name;
+            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + "\nУ игрока " + secondPlayer.name + ": " + secondPl + "\n\nПобедитель " + secondPlayer.name;
         }
         if (firstPl == "Scissors" && secondPl == "Paper") {
-            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + " У игрока " + secondPlayer.name + ": " + secondPl + " Победитель " + firstPlayer.name;
+            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + "\nУ игрока " + secondPlayer.name + ": " + secondPl + "\n\nПобедитель " + firstPlayer.name;
         }
         if (firstPl == "Scissors" && secondPl == "Rock") {
-            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + " У игрока " + secondPlayer.name + ": " + secondPl + " Победитель " + secondPlayer.name;
+            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + "\nУ игрока " + secondPlayer.name + ": " + secondPl + "\n\nПобедитель " + secondPlayer.name;
         }
         if (firstPl == "Paper" && secondPl == "Rock") {
-            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + " У игрока " + secondPlayer.name + ": " + secondPl + " Победитель " + firstPlayer.name;
+            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + "\nУ игрока " + secondPlayer.name + ": " + secondPl + "\n\nПобедитель " + firstPlayer.name;
         }
         if (firstPl == "Paper" && secondPl == "Scissors") {
-            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + " У игрока " + secondPlayer.name + ": " + secondPl + " Победитель " + secondPlayer.name;
+            outStr = "У игрока " + firstPlayer.name + ": " + firstPl + "\nУ игрока " + secondPlayer.name + ": " + secondPl + "\n\nПобедитель " + secondPlayer.name;
         }
         return outStr;
 
