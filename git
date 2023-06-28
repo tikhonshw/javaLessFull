@@ -1,0 +1,10 @@
+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
+
+Перед началом работы
+git pull
+
+Отправка информации на github
+git add .
+git commit -m "с ноутбука 1"
+git push -u origin master
+
