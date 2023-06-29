@@ -16,6 +16,7 @@ public class GetObject {
 //            Course kotlin = (Course) ois.readObject();
 
             System.out.println(Arrays.toString(objects));
+
 //            System.out.println(kotlin);
 
             ois.close();
